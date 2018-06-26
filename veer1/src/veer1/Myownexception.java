@@ -10,6 +10,8 @@ public class Myownexception {
 			int num = p1.nextInt();
 			if(num < 0 || num > 12)
 			throw new InvalidMonthException("Invalid Month Value");
+			else 
+				System.out.println("valid month");
 		}
 		catch (Exception e)
 		{
